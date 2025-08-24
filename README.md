@@ -9,24 +9,28 @@ YumeFlow is a beautifully crafted mobile anime streaming application built with 
 ## ✨ Features
 
 ### 🎌 **Comprehensive Anime Library**
+
 - Extensive collection of anime series and movies
 - Multiple genres: Action, Romance, Comedy, Drama, Fantasy, and more
 - Seasonal anime tracking and recommendations
 - Both subbed and dubbed content in Ukrainian
 
 ### 🔍 **Smart Discovery**
+
 - Advanced search functionality with filters
 - Personalized recommendations based on viewing history
 - Trending and popular anime sections
 - New releases and upcoming anime notifications
 
 ### 📱 **Seamless Streaming**
+
 - High-quality video streaming (720p, 1080p)
 - Adaptive bitrate streaming for optimal performance
 - Offline download capability for favorite episodes
 - Resume watching from where you left off
 
 ### 👤 **User Experience**
+
 - Create and customize your personal profile
 - Build and manage your anime watchlist
 - Rate and review anime series
@@ -34,6 +38,7 @@ YumeFlow is a beautifully crafted mobile anime streaming application built with 
 - Social features to connect with fellow anime fans
 
 ### 🌙 **Beautiful Interface**
+
 - Dark and light theme options
 - Smooth animations and transitions
 - Intuitive navigation with bottom tabs
@@ -46,6 +51,7 @@ YumeFlow is a beautifully crafted mobile anime streaming application built with 
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (v18 or later)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
@@ -53,12 +59,14 @@ Before you begin, ensure you have the following installed:
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/yumeflow.git
    cd yumeflow
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -66,21 +74,23 @@ Before you begin, ensure you have the following installed:
    ```
 
 3. **Start the development server**
+
    ```bash
    npx expo start
    ```
 
 4. **Run on your device**
-    - Install [Expo Go](https://expo.dev/go) on your mobile device
-    - Scan the QR code displayed in your terminal
-    - Or run on simulators:
-      ```bash
-      # iOS Simulator
-      npx expo start --ios
-      
-      # Android Emulator
-      npx expo start --android
-      ```
+   - Install [Expo Go](https://expo.dev/go) on your mobile device
+   - Scan the QR code displayed in your terminal
+   - Or run on simulators:
+
+     ```bash
+     # iOS Simulator
+     npx expo start --ios
+
+     # Android Emulator
+     npx expo start --android
+     ```
 
 ---
 
@@ -160,8 +170,8 @@ Edit `app.json` to customize app settings:
 
 ## 📱 Screenshots
 
-| Home Screen | Anime Detail | Player View | Profile |
-|-------------|--------------|-------------|---------|
+| Home Screen                                     | Anime Detail                                      | Player View                                       | Profile                                            |
+| ----------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | -------------------------------------------------- |
 | <img src="./screenshots/home.png" width="200"/> | <img src="./screenshots/detail.png" width="200"/> | <img src="./screenshots/player.png" width="200"/> | <img src="./screenshots/profile.png" width="200"/> |
 
 ---
@@ -171,12 +181,14 @@ Edit `app.json` to customize app settings:
 ### Building for Production
 
 1. **Create a production build**
+
    ```bash
    npx expo build:android
    npx expo build:ios
    ```
 
 2. **Using EAS Build (Recommended)**
+
    ```bash
    npm install -g @expo/eas-cli
    eas build --platform all
@@ -246,4 +258,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ in Ukraine 🇺🇦**
 
-*Experience anime like never before with YumeFlow - where dreams flow seamlessly into reality.*
+_Experience anime like never before with YumeFlow - where dreams flow seamlessly into reality._
