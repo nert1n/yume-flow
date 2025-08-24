@@ -1,5 +1,5 @@
-import { View } from 'react-native'
+import { Layout } from '@ui-kitten/components'
 
 export default function TabTwoScreen() {
-  return <View></View>
+  return <Layout style={{ flex: 1 }} />
 }
