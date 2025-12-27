@@ -1,11 +1,12 @@
 import { View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { StatusBar } from 'expo-status-bar';
 
-export default function ProfilePage() {
+export default function SearchPage() {
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+    <SafeAreaView className="flex-1 bg-white" >
       <View className="flex-1 items-center justify-center">
-        <Text className="text-2xl font-bold">Profile Page</Text>
+        <Text className="text-2xl font-bold">Search Page</Text>
       </View>
     </SafeAreaView>
   );

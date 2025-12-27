@@ -1,7 +1,6 @@
 import {  Text, View } from 'react-native';
 
 import { SafeAreaView } from "react-native-safe-area-context";
-import { StatusBar } from "expo-status-bar";
 
 export default function NewsPage() {
   return (
@@ -9,7 +8,6 @@ export default function NewsPage() {
       <View className="flex-1 items-center justify-center">
         <Text className="text-2xl font-bold">News Page</Text>
       </View>
-      <StatusBar style="auto" />
     </SafeAreaView>
   );
 }
