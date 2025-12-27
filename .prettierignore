@@ -1,0 +1,16 @@
+node_modules
+.expo
+.expo-shared
+dist
+build
+*.log
+.next
+.nuxt
+.cache
+coverage
+.nyc_output
+.DS_Store
+*.pem
+bun.lock
+package-lock.json
+
